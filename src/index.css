@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Inter&family=Palanquin&family=Paytone+One&display=swap');
+
+*{
+  /* --color-fill:#5AE4A8; */
+  --color-fill:#50b88b;
+}
+
+:root 
+{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  --color-bg: #D5F7E6;
+  --color-bg-sec: #F2F2F2;
+  --color-text: #1A2E35;
+}
+
+@media(prefers-color-scheme: dark)
+{
+  :root 
+  {
+     --color-bg:#242424;
+     --color-bg-sec:#2d2d2d;  
+    --color-text:#F2F2F2;
+  }
+}
+

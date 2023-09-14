@@ -1,0 +1,43 @@
+.footer
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: var(--color-bg); 
+    color: var(--color-text);
+    
+    border-radius: 0 0 1em 1em;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    
+    /* text-align:right; */
+    /* right: 1.5em; */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul li 
+{
+
+    list-style: none;
+    padding: 0 1em;
+    display: none;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 768px)
+{
+    .footer ul li 
+    {
+        display: inline-block;
+    }
+}
+
+.footer h5{
+    margin-right: 2em;
+}

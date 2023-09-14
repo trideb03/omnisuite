@@ -1,0 +1,70 @@
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    /* border: 1px solid red; */
+    margin-bottom: 0;
+}
+
+.logo 
+{
+    display: inline-block;
+    font-family: Righteous cursive;
+    font-size: 3em;
+    font-weight: 800;
+    word-spacing: 0.2em;
+    will-change: filter;
+    transition: filter 300ms;
+    margin-left: 0.4em ;
+    cursor: pointer;
+}
+
+.logo:hover {
+    /* filter: drop-shadow(0 0 1.5rem #646cff); */
+    filter: drop-shadow(0 0 1.6rem var(--color-fill));
+}
+
+
+.navbar ul
+{
+    margin-right: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px)
+{
+    .navbar ul
+    {
+        display: none;
+    }
+}
+
+.navbar ul li
+{
+    margin: 1.5em;
+    padding: 0.5em 0em;
+    height: 1.5em;
+    min-width: 1.5em;
+    width: auto;
+    list-style: none;
+    
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    transition: transform 100ms;
+}
+
+.navbar ul li:hover
+{
+    color: var(--color-fill);
+    transform: translateY(-0.2em);
+}
